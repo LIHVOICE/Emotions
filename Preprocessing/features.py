@@ -29,6 +29,10 @@ from parselmouth.praat import call
 from sklearn.decomposition import PCA
 import statistics
 
+#this technique is used to isolate each emotion and class it from the others
+
+
+
 #dataframe that matches audios to emotions:
 
 parent_dir = "audio_emotion"
@@ -45,7 +49,9 @@ def prepare_datadf(parent_dir): # a function whose parameter is the audio folder
             for i in audios:
                 emotion = None
                 if i.endswith('outNoise.wav'):
-                    if i[7] == '3':
+                    if i[7] == '3': #this specifies that we isolate the happy emotion: the happy emotion
+                                    #is represented by the number 3 of the 7th column in filename. Just change
+                                    # this number for other emotions (ex calm = '2', fearfull = '7')
                         emotion = 1
                     
                     else:
