@@ -14,6 +14,9 @@ As part of the [Colives Diabeties](https://www.colive-diabetes.org/) project, th
  
 We use the [RAVLESS](https://zenodo.org/record/1188976#.XrFuWfk6_z5) database which lists eight main emotions: joy, anger, sadness, fear, disgust, surprise, calm, neutral
 
+and the [MELD](https://github.com/declare-lab/MELD) database which lists the same emotions exept calm.
+
+For the conformity of the two bases, this emotion was excluded.
   
 
 
@@ -23,10 +26,11 @@ Machine Learning (ML), Deep Learning.
 What Does this Repository Contain
 --------------------------------------------------
 
-* Datasets managment
+* Datasets management
 * Signal Preprocessing
-* Machines learning approches for each emotion
-* Deep learning approches
+* Features statistics of the two databases
+* Machines learning approaches for each emotion
+* Deep learning approaches
     
 
 
@@ -36,12 +40,19 @@ Dependencies
 
 * Scipy
 * Scikit Learn
+* Imblearn
+* Xgboost
+* Joblib
 * Librosa
 * Spafe
 * Parselmouth
-* Numpy   
+* Essentia
+* Numpy
+* Seaborn
 * pandas
 * Matplotlib
+* Tensorflow
+* Keras
 
 
 
