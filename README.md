@@ -38,21 +38,20 @@ Dependencies
 ------------
 
 
-* Scipy
-* Scikit Learn
-* Imblearn
-* Xgboost
-* Joblib
-* Librosa
-* Spafe
-* Parselmouth
-* Essentia
-* Numpy
-* Seaborn
-* pandas
-* Matplotlib
-* Tensorflow
-* Keras
+* Scipy 1.4.1
+* Scikit Learn 0.22.2
+* Imblearn 0.4.3
+* Xgboost 0.90
+* Joblib 0.16.0
+* Librosa 0.6.3
+* Parselmouth 0.3.3
+* Essentia 2.1
+* Numpy 1.18.5
+* Seaborn 0.10.1
+* pandas 1.0.5
+* Matplotlib 3.2.2
+* Tensorflow 2.3.0
+* Keras 2.4.3
 
 
 
