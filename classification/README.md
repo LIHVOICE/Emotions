@@ -11,4 +11,9 @@ The aim is to use two approaches for the binary classification of each emotion, 
 * A deep learning approach using a convolutional neural network:
 
 
-![The Convolutional Neural Network](modele.png)
+![The Convolutional Neural Network](CNN.png)
+
+
+```python
+
+```
